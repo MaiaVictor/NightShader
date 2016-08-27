@@ -1,0 +1,16 @@
+{
+  "name": "nightshader",
+  "version": "0.1.0",
+  "description": "",
+  "main": "NightShade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify -d examples/boxes/index.js > examples/boxes/index.bundle.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dattata": "^0.1.0",
+    "webmonkeys": "^1.5.3"
+  }
+}
